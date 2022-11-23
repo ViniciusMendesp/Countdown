@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Countdown</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <img class="topImage"src="/images/top-image.svg" alt="">
+    </div>
+    <div>
+      <img class="bottonImage" src="/images/bottom-image.svg" alt="">
+    </div>
+
+    <div class="content">
+      <div class="countdownContainer">
+        <h1 class="title">READY TO LAUNCH IN...</h1>
+        <div class="countdownSpan">
+          <span>Dias <div id="days">00</div></span>
+          <span>Horas <div id="hours">00</div></span>
+          <span>Minutos <div id="minutes">00</div></span>
+          <span>Segundos <div id="seconds">00</div></span>
+        </div>
+        <span class="subTitle">Inscreva-se para saber mais sobre o lançamento</span>
+        <button class="trigger">Inscreva-se</button>
+      </div>
+      <div class="rocketImage">
+        <img src="/images/rocket.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="modal">
+    <div class="modalContent">
+        <span class="closeButton">&times;</span>
+        <h1 class="title-modal">
+          Inscreva-se para receber uma notificação quando começarmos
+        <h1>
+        <form action="" id="form">
+          <input type="email" name="" id="" placeholder="oi@rocketseat.com">
+          <button class="ButtonModal" type="submit">Enviar</button>
+        </form>
+    </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
