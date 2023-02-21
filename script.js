@@ -1,4 +1,4 @@
-let comingDate = new Date('Feb 24, 2023 13:12:00')
+let comingDate = new Date('Feb 24, 2029 13:12:00')
 
 let d = document.getElementById('days')
 let h = document.getElementById('hours')
